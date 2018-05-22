@@ -1,0 +1,16 @@
+///////////////////////
+#!/bin/bash
+
+input=FILE_PATH
+while read -r line || [[ -n $line ]] ; do
+    for word in  $line ; do
+        output=`echo $word | rev`
+        printf "%s " $output
+    done
+    printf "\n"
+done < $input
+
+
+
+///////////////////////
+grep -E '^[[:upper:]]+$|^[[:lower:]]+$' grep.txt

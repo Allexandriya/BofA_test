@@ -1,0 +1,7 @@
+lowercase
+UPPERCASE
+MixedCase
+example
+1234
+ERROR
+punctuation!?
